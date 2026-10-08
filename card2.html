@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top fixed section */
+.fixed {
+    width: 800px;
+    margin: 20px auto;
+    background: red;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+/* Card */
+.card {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: 20px auto;   /* center card */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    max-width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Liquid section */
+.liquid {
+    width: 50%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Response section */
+.response {
+    display: inline;
+    justify-content: center;
+    gap: 10px;
+}
+
+.col {
+    background: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    .fixed {
+        width: 90%;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .liquid {
+        width: 80%;
+    }
+
+    .response {
+        
+        text-align: center;
+        display: inline;
+    }
+
+    .col {
+        display: inline;
+        margin-bottom: 5px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="fixed">
+    <h3>all about me</h3>
+    <p>simple but strong</p>
+</div>
+
+<div class="card">
+    <h3>CHANDANA R</h3>
+    <img src="nature.jpg" alt="profile photo">
+    <p>I am a passionate web developer working at Microsoft</p>
+    <p>Phone: 7259692251</p>
+    <p>Email: <a href="mailto:chandu@gmail.com">chandu@gmail.com</a></p>
+</div>
+
+<div class="liquid">
+    <p>Hobbies</p>
+    <ul style="list-style: none; padding: 0;">
+        <li>singing</li>
+        <li>dancing</li>
+    </ul>
+</div>
+
+<div class="response">
+    <div class="col">bold</div>
+    <div class="col">confident</div>
+</div>
+
+</body>
+</html>

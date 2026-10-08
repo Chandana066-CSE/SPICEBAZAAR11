@@ -1,0 +1,52 @@
+body{
+    color:black;
+    font-family: Georgia;
+    background-color: goldenrod;
+  
+
+}
+h1{
+    color:aquamarine;
+}
+
+.mainheading{
+    color:black;
+    text-align: center;
+}
+.centerhead{
+    font-weight: bold;
+    font-style: oblique;
+    color: brown;
+
+}
+a[href^="https"]{
+    color: black;
+}
+a[href$=".asp"]{
+    font-weight: lighter;
+    color: black;
+}
+.imagecontainer{
+    position:relative;
+    width: 150px;
+    height: 200px;
+}
+.img1{
+    top:0px;
+    left:0;
+    width:250px;
+    z-index: 1;
+    position: absolute;
+
+}
+.img2{
+    top:30px;
+    left:30px;
+    width:250px;
+    z-index: 2;
+    position: absolute;
+
+}
+a:hover{
+    cursor: crosshair;
+}
